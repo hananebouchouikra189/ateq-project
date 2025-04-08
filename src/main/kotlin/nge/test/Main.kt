@@ -21,7 +21,7 @@ fun createAndShowGUI() {
     frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
     frame.setSize(640, 480)
 
-    val panel = ImagePanel("/home/hanane/IdeaProjects/test2/src/main/resources/2.png")
+    val panel = ImagePanel("./src/main/resources/2.png")
     panel.layout = null
 
     val vinLabel = JLabel("VIN: ")
